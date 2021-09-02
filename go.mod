@@ -1,1 +1,3 @@
-module github.com/hillu/go-yara/v4
+module github.com/iangudger/go-yara
+
+go 1.16

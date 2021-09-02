@@ -284,3 +284,8 @@ func (r *Rules) DefineVariable(identifier string, value interface{}) (err error)
 	runtime.KeepAlive(r)
 	return
 }
+
+// Number returns the number of rules.
+func (r *Rules) Number() int32 {
+	return int32(r.cptr.num_rules)
+}
